@@ -1,8 +1,8 @@
 # Notas:
 
-Este es un pequeño servidor de express listo para ejecutarse y servir la carpeta public en la web.
+Aplicación que permite gestionar la cola de un banco mediante tickets. 
 
-Recuerden que deben de reconstruir los módulos de node con el comando
+La aplicación usa sockets para ver en tiempo real cuando los clientes generan un ticket y cuando los operarios dan paso a esos tickets. También hay una pantalla pública que es la que ven los clientes para comprobar el estado de los tickets y la disponibilidad de las mesas de los operarios.
 
 ```
 npm install
